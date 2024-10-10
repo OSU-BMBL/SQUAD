@@ -1,10 +1,13 @@
 [tool.poetry]
-name = "squad"
-version = "0.1.0"
+name = "squad_py"
+version = "0.2.0"
 description = "Spatial QUality Assessment and Diagnosis"
 authors = ["fengsh <shaohong.feng.78@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [
+    { include = "squad_py" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -15,3 +18,5 @@ pytest = "^8.3.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
