@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "squad_py"
-version = "0.2.0"
+version = "0.2.1"
 description = "Spatial QUality Assessment and Diagnosis"
 authors = ["fengsh <shaohong.feng.78@gmail.com>"]
 license = "MIT"
